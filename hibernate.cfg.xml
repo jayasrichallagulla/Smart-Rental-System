@@ -14,8 +14,8 @@
         <property name="show_sql">true</property>
         <property name="hbm2ddl.auto">update</property>
 
-        <mapping class="com.smart.rental.model.Property"/>
-        <mapping class="com.smart.rental.model.Tenant"/>
-        <mapping class="com.smart.rental.model.Rental"/>
+        <mapping class="com.jayasri.Property"/>
+        <mapping class="com.jayasri.Tenant"/>
+        <mapping class="com.jayasri.Rental"/>
     </session-factory>
 </hibernate-configuration>
